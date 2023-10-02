@@ -757,7 +757,7 @@ section {
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+/* .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -812,12 +812,12 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #82909c;
-}
+} */
 
 /*--------------------------------------------------------------
 # My Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -868,7 +868,7 @@ section {
 
 .services .icon-box:hover .title a {
   color: #ffb727;
-}
+} */
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -973,7 +973,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# My Portfolio
+# My Project
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
   list-style: none;
@@ -1133,7 +1133,7 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .box {
+/* .pricing .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1238,7 +1238,7 @@ section {
   padding: 1px 0 3px 0;
   background: #ffb727;
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact Me
