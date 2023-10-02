@@ -1243,24 +1243,54 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
-.contact .info-box {
-  color: #444444;
+
+.contact {
+  padding: 80px 0;
+  background-color: #111;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.contact h2 {
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: #b17bd1;
+}
+
+.contact p {
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: #f0ecf299;
+}
+
+.contact span {
+  text-align: center;
+  color: #8cbbd0;
+}
+
+.contact .info-box {
+  color: #e6e4c1;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(138, 113, 231, 0.6);
   padding: 20px 0 30px 0;
+  background-color: #111;
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #ffb727;
+  color: #97c8dc;
   border-radius: 50%;
   padding: 15px;
-  background: #fff6e4;
+  background: #8341ecc9;
+  box-shadow: 0 0 30px rgba(155, 198, 209, 0.399);
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: #7f7e7e;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1281,23 +1311,24 @@ section {
 .contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #687683;
+  color: #b771da;
+  box-shadow: 0 0 30px rgba(111, 114, 71, 0.399);
   line-height: 1;
   margin: 0 8px;
   transition: 0.3s;
   padding: 14px;
   border-radius: 50px;
-  border: 1px solid #dde1e4;
+  border: 1px solid #e3d5a8;
 }
 
 .contact .social-links a:hover {
-  color: #fff;
-  border-color: #ffb727;
-  background: #ffb727;
+  color: #bdd3c0;
+  border-color: #2b1e3d;
+  background: #00c0e2;
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(138, 113, 231, 0.6);
   padding: 27px;
 }
 
@@ -1311,7 +1342,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #dee5e0;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1324,7 +1355,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #f3f1f1;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1355,11 +1386,12 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  color: #ecd90d;
 }
 
 .contact .php-email-form input::focus,
 .contact .php-email-form textarea::focus {
-  background-color: #ffb727;
+  background-color: #8f27ff;
 }
 
 .contact .php-email-form input {
