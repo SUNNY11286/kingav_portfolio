@@ -1299,6 +1299,7 @@ section {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
+  /* text-align: center; */
   margin-bottom: 0;
 }
 
@@ -1324,7 +1325,12 @@ section {
 .contact .social-links a:hover {
   color: #bdd3c0;
   border-color: #2b1e3d;
-  background: #00c0e2;
+  background: #426268;
+}
+
+.contact .form-group {
+  text-align: right;
+  color: #18d26e;
 }
 
 .contact .php-email-form {
@@ -1396,14 +1402,17 @@ section {
 
 .contact .php-email-form input {
   padding: 10px 15px;
+  background-color: #a48fb7;
 }
 
 .contact .php-email-form textarea {
   padding: 12px 15px;
+  background-color: #a48fb7;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffb727;
+  background: #8341ecc9;
+  box-shadow: 0 0 30px #455d61;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1412,8 +1421,9 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffc85a;
+  background: #38213f;
 }
+
 
 @keyframes animate-loading {
   0% {
