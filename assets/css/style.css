@@ -718,6 +718,43 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Experience Section
+--------------------------------------------------------------*/
+
+.experience {
+  padding: 80px 0;
+  background: url("../img/exp_bg.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  min-height: 700px;
+}
+
+.experience .content h3 {
+  font-weight: 280;
+  font-size: 26px;
+  color: #e9e7d8;
+  margin-top: 90px;
+}
+
+.experience h2 {
+  text-align: left;
+  /* margin-top: 120px; */
+  margin-left: 2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 26px;
+  color: #d5b0e2dd;
+  text-align: center;
+}
+
+.experience span {
+  text-align: center;
+  color: #dbe08d;
+}
+
+/*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
