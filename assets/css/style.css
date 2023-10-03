@@ -973,6 +973,80 @@ section {
 }
 
 /*--------------------------------------------------------------
+# domain Section
+--------------------------------------------------------------*/
+
+.quote {
+  padding: 80px 0;
+  background: url("../img/quote_bg.gif") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.quote .content h3 {
+  font-weight: 280;
+  font-size: 26px;
+  color: #e9e7d8;
+  margin-top: 90px;
+}
+
+.quote h2 {
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 26px;
+  color: #d5b0e2dd;
+}
+
+/*--------------------------------------------------------------
+# Publication Section
+--------------------------------------------------------------*/
+
+.publication {
+  padding: 80px 0;
+  background: url("../img/pubg.gif") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  min-height: 700px;
+}
+
+.publication .content h3 {
+  font-weight: 280;
+  font-size: 26px;
+  color: #e9e7d8;
+  margin-top: 90px;
+}
+
+.publication h2 {
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 26px;
+  color: #d5b0e2dd;
+}
+
+.publication .publication-title {
+  text-align: left;
+  /* font-size: 26px; */
+  color: #b56fceea;
+}
+
+.publication p {
+  text-align: left;
+  /* font-size: 26px; */
+  color: #d2c464ea;
+}
+
+
+/*--------------------------------------------------------------
 # My Project
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
