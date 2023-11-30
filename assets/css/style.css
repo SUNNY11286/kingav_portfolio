@@ -750,12 +750,12 @@ section {
   font-weight: 280;
   font-size: 26px;
   /* color: #e9e7d8; */
-  margin-top: 90px;
+  margin-top: 5px;
   text-align: top;
 }
 
 .experience h6 {
-  text-align: justify;
+  text-align: top;
 }
 
 .experience h2 {
@@ -767,7 +767,7 @@ section {
   font-weight: 600;
   font-size: 26px;
   color: #d5b0e2dd;
-  text-align: center;
+  text-align: top;
 }
 
 .experience span {
@@ -783,6 +783,30 @@ section {
   filter: blur(8px);
   -webkit-filter: blur(8px);
 } */
+.blur {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.experience .work-info {
+  /* position: absolute;
+  color: rgb(255, 255, 255);
+  left: 18rem;
+  top: 2rem;
+  background-color: rgb(41, 41, 41, 0.8);
+  padding: 0 1rem; */
+  margin-top: 0px;
+  text-align: center;
+  /* background: #e0dbebe0; */
+  background: #eae9ec00;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  max-width: fit-content;
+  height: auto
+}
 
 .team-item .team-img::before,
 .team-item .team-img::after {
@@ -792,15 +816,11 @@ section {
   height: 100%;
   top: 0;
   left: 0;
+  /* background: #dfdde2e0; */
   background: #e0dbebe0;
   transition: .3s;
 
 }
-
-/* .blur {
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
-} */
 
 .team-item .team-img::after {
   left: auto;
