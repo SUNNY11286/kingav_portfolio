@@ -751,11 +751,11 @@ section {
   font-size: 26px;
   /* color: #e9e7d8; */
   margin-top: 90px;
-  text-align: center;
+  text-align: top;
 }
 
 .experience h6 {
-  text-align: center;
+  text-align: justify;
 }
 
 .experience h2 {
@@ -771,7 +771,7 @@ section {
 }
 
 .experience span {
-  text-align: center;
+  text-align: justify;
   color: #2b2929;
 }
 
@@ -792,15 +792,15 @@ section {
   height: 100%;
   top: 0;
   left: 0;
-  background: #e0dbebab;
+  background: #e0dbebe0;
   transition: .3s;
 
 }
 
-.blur {
+/* .blur {
   filter: blur(4px);
   -webkit-filter: blur(4px);
-}
+} */
 
 .team-item .team-img::after {
   left: auto;
@@ -810,6 +810,8 @@ section {
 .team-item:hover .team-img::before,
 .team-item:hover .team-img::after {
   width: 50%;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
 }
 
 .experience .team-item .team-img .team-social {
@@ -833,6 +835,7 @@ section {
   opacity: 1;
 }
 
+
 .experience .team-item .team-social .btn {
   display: inline-flex;
   margin: 0 3px;
@@ -841,7 +844,7 @@ section {
 }
 
 .experience .team-item .team-social .btn:hover {
-  color: #FFFFFF;
+  color: #d7a1a1;
   background: var(--primary);
 }
 
