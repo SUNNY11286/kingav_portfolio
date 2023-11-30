@@ -570,8 +570,8 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #cbd2d8;
-  text-transform: uppercase;
-  /*text-align-last: justify;*/
+  /* text-transform: uppercase; */
+  text-align: justify;
   margin-top: 90px;
 }
 
@@ -593,6 +593,12 @@ section {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: London;
+  src: url(fonts/London_3_Regular.ttf);
+  /* font-weight: bold; */
+}
+
 .about .content p {
   font-weight: 700;
   font-size: 40px;
@@ -600,6 +606,15 @@ section {
   margin-left: 10px;
   font-family: "NewYork";
   color: #d5b0e2dd;
+}
+
+.about .content h3 {
+  font-weight: 120;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Open Sans";
+  color: #eee9f2dd;
 }
 
 .about .content ul {
@@ -664,7 +679,8 @@ section {
   margin-top: 20px;
   color: #5d6a75;
   font-size: 15px;
-  font-family: "Satisfy", serif;
+  /* font-family: "Satisfy", serif; */
+  font-family: London;
   transition: ease-in-out 0.3s;
   text-align: left;
 }
