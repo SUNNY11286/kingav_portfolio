@@ -772,11 +772,17 @@ section {
 
 .experience span {
   text-align: center;
-  color: #dbe08d;
+  color: #2b2929;
 }
 
+.experience .p {
+  font-weight: 900;
+}
 
-
+/* .team-item .team-img .team-item:hover {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+} */
 
 .team-item .team-img::before,
 .team-item .team-img::after {
@@ -786,8 +792,14 @@ section {
   height: 100%;
   top: 0;
   left: 0;
-  background: #74a9db;
+  background: #e0dbebab;
   transition: .3s;
+
+}
+
+.blur {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 
 .team-item .team-img::after {
