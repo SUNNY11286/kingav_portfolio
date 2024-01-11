@@ -428,19 +428,29 @@ section {
   color: #3b434a;
   position: relative;
   z-index: 2;
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .section-title span {
   position: absolute;
   top: 30px;
-  color: #eef0f2;
+  color: #3d2144;
   left: 0;
   right: 0;
+  margin-bottom: 20px;
+  bottom: 20px;
   z-index: 1;
   font-weight: 700;
   font-size: 52px;
   text-transform: uppercase;
   line-height: 0;
+
+  /* background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .section-title p {
@@ -746,6 +756,23 @@ section {
   min-height: 700px;
 }
 
+/* .experience .section-title span {
+  position: absolute;
+  top: 30px;
+  color: #27cc1f;
+  margin-bottom: 20px;
+  bottom: 20px;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(208, 29, 128)8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
 .experience h3 {
   font-weight: 280;
   font-size: 26px;
@@ -834,7 +861,7 @@ section {
   -webkit-filter: blur(8px); */
 }
 
-.experience .team-item .team-img .team-social {
+.team-item .team-img .team-social {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -850,7 +877,7 @@ section {
   width: 270px;
 }
 
-.experience .team-item:hover .team-img .team-social {
+.team-item:hover .team-img .team-social {
   transition-delay: .1s;
   opacity: 1;
 }
@@ -1115,6 +1142,37 @@ section {
   font-size: 26px;
   color: #d5b0e2dd;
 }
+
+.domain .team-item .span {
+  content: "\2192";
+}
+
+.domain .section-title .span {
+  text-align: center;
+  color: #111;
+}
+
+/* .domain .team-item .h3 {
+  font-size: 20;
+  text-transform: uppercase;
+} */
+
+/* .domain .section-title span {
+  position: absolute;
+  top: 30px;
+  color: #27cc1f;
+  margin-bottom: 20px;
+  bottom: 20px;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(208, 29, 128)8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 /*--------------------------------------------------------------
 # Publication Section
