@@ -1208,6 +1208,13 @@ section {
   color: #d5b0e2dd;
 }
 
+.publication .img-publication {
+  width: 100%;
+  height: 200px;
+  margin-top: 150px;
+  margin-left: 500px;
+}
+
 .publication .publication-title {
   text-align: left;
   /* font-size: 26px; */
